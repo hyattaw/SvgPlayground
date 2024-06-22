@@ -1,0 +1,106 @@
+:root {
+  --1vanaGreen: #65B346;
+  --1vanaDarkGray: #3C3A3A;
+  --2vanaGreenLight: #92C674;
+  --2vanaGreenLighter: #B6D9A2;
+  --2vanaGreenLightest: #DAECD1;
+  --2vanaGreenDark: #2B770F;
+  --2vanaGrayLight: #9D9C9C;
+  --2vanaGrayLighter: #CECECE;
+  --2vanaGrayLightest: #EBEBEB;
+  --2vanaBlue: #184461;
+  --2vanaBlueGreen: #2D8588;
+  --white: #ffffff;
+  @media (prefers-color-scheme: dark) {
+    :root {
+      filter: brightness(2);
+    }
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+  /* 1rem */
+}
+
+head {}
+
+@viewport {
+  width: device-width;
+  height: device-height;
+  initial-scale: 1;
+  zoom: auto;
+  /* auto, num, % */
+  min-zoom: auto;
+  /* auto, num, % */
+  max-zoom: auto;
+  /* auto, num, % */
+  user-zoom: zoom;
+  /* fixed, zoom */
+  orientation: auto;
+  /* portrait, landscape */
+}
+
+body {
+  background-color: var(--2vanaGrayLighter);
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+h2 {
+  font-size: 1.75rem;
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+h3 {
+  font-size: 1.66rem;
+  /*1.5rem;*/
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+h4 {
+  font-size: 1.5rem;
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+h5 {
+  font-size: 1.33rem;
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+h6 {
+  font-size: 1.25rem;
+  color: var(--2vanaBlue);
+  text-align: left;
+}
+
+#headings {
+  background-color: pink;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  background-color: var(--2vanaBlueGreen);
+}
+
+.iconLight {
+  fill: #987654;
+  stroke: blue;
+  stroke-width: 0%;
+  color: pink;
+}
